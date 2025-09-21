@@ -27,6 +27,7 @@ export interface ThemeConfig {
 }
 
 export default defineConfigWithTheme<ThemeConfig>({
+  base: '/vitepress-theme-blurarchive/'
   lang: 'zh-CN',
   head: [
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
